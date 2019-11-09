@@ -1,0 +1,24 @@
+{
+  "name": "journal-app",
+  "version": "0.0.1",
+  "description": "Journal application based on serverless-stack guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigikulm/journal-app.git"
+  },
+  "keywords": [
+    "lambda",
+    "dynamodb",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rigikulm/journal-app/issues"
+  },
+  "homepage": "https://github.com/rigikulm/journal-app#readme"
+}

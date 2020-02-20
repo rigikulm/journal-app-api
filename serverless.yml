@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: journal-app-api2
+service: journal-app-api
 
 # Create an optimized package for our functions 
 package:

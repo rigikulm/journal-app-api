@@ -1,14 +1,15 @@
 {
-  "name": "journal-app",
+  "name": "journal-app-api",
   "version": "0.0.1",
   "description": "Journal application based on serverless-stack guide",
-  "main": "index.js",
+  "main": "handler.js",
   "scripts": {
+      "test": "serverless-bundle test"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rigikulm/journal-app.git"
+    "url": "git+https://github.com/rigikulm/journal-app-api.git"
   },
   "keywords": [
     "lambda",
@@ -18,7 +19,13 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rigikulm/journal-app/issues"
+    "url": "https://github.com/rigikulm/journal-app-api/issues"
   },
-  "homepage": "https://github.com/rigikulm/journal-app#readme"
+  "homepage": "https://github.com/rigikulm/journal-app-api#readme"
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-bundle": "^1.2.5",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.3.3"
+  } 
 }

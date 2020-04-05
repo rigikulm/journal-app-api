@@ -7,7 +7,19 @@ package:
 plugins:
   - serverless-bundle # Package our functions with Webpack
   - serverless-offline
+  - serverless-dynamodb-local
   - serverless-dotenv-plugin # Load .env as environment variables
+
+custom:
+  dynamodb:
+    stages:
+      - dev
+      - prod
+    start:
+      host: amazon/dynamodb-local
+      port: 8000
+      noStart: true
+      migrate: true
 
 provider:
   name: aws

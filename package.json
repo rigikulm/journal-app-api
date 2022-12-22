@@ -31,7 +31,7 @@
     "serverless-bundle": "^1.3.3",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-dynamodb-local": "^0.2.39",
-    "serverless-offline": "^5.3.3"
+    "serverless-offline": "^12.0.3"
   },
   "config": {
     "commitizen": {
